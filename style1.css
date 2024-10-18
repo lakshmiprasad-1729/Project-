@@ -1,6 +1,8 @@
 *{
 margin: 0rem;
 padding: 0rem;
+overflow: hidden;
+overflow-x: hidden;
 }
 
 #home{
@@ -26,7 +28,22 @@ text-align: center;
     border-radius: 0.5rem;
 }
 
-.status{
+#teacher1-status{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2rem;
+    background-color: red;
+    margin-left: auto;
+}
+
+#teacher2-status{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2rem;
+    background-color: red;
+    margin-left: auto;
+}
+#teacher3-status{
     width: 1rem;
     height: 1rem;
     border-radius: 2rem;
