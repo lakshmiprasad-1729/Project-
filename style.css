@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent-container{
+display: grid;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100dvw;
+    height: 2.5rem;
+    border-bottom: 1px black solid;
+}
+
+#website-name{
+    display: grid;
+    margin-top: 0.5rem;
+    margin-left:2rem ;
+}
+
+#web-name{
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+#organisation{
+    font-size: 0.6rem;
+}
+
+#options-container{
+    display: flex;
+    list-style: none;
+    margin-top: 0.1rem;
+}
+
+
+
+.navbar-option{
+    margin-left:0.5rem ;
+    width: 3.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-option:hover{
+    color: white;
+    width: 3.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: black;
+}
+
+
+#btns{
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+}
+
+.btn{
+    width: 3rem;
+    height: 2rem;
+    background-color: #3b82f6;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    margin-top: 0.25rem;
+   
+}
+
+.btn:hover{
+    background-color: #1e40af;
+}
+
+#register-btn{
+    margin-right: 1rem;
+    width: 3.5rem;
+}
+
+#home{
+    width:100dvw;
+  display: grid;
+  margin-top: 3rem;
+}
+
+#sliet-image{
+    display: grid;
+    justify-content: center;
+}
+
+#image{
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+#content{
+    display: grid;
+    width: 100dvw;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+#content-heading{
+    text-align: center;
+}
+#content-matter{
+    margin-top:0.8rem ;
+    width: 50dvw;
+}
+
+@media only screen and (max-width:610px) {
+    /* For mobile phones: */
+   #content-matter{
+       margin-top:0.8rem ;
+       width: 90dvw;
+   }
+   #heading{
+    margin-left:1rem;
+   }
+
+#image{
+    width: 90dvw;
+    margin-left:5dvw;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+#register-btn{
+  display: none;
+}
+
+#btns{
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+    margin-right:1rem ;
+}
+
+
+  }
+
+
+  @media screen and (max-width:450px) {
+
+  }
+
+
+
+
+

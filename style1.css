@@ -1,0 +1,63 @@
+*{
+margin: 0rem;
+padding: 0rem;
+}
+
+#home{
+    display: none;
+}
+
+#teachers-of-sliet{
+    border: 2px #3b82f6 solid;
+}
+.header{
+    width: 100%;
+margin-top:2rem;
+text-align: center;
+}
+
+
+.box{
+    border:2px #3b82f6 solid;
+    padding: 1rem;
+    display: grid;
+    width:20rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.status{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2rem;
+    background-color: red;
+    margin-left: auto;
+}
+
+.teach_heading{
+    text-align: center;
+    font-family: monospace;
+}
+.image{
+    width:18rem ;
+    margin-top:1rem ;
+}
+
+.teach-btn{
+    width:4rem ;
+    height: 2rem;
+    color: white;
+    background-color: #3b82f6;
+    margin-bottom:1rem ;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+}
+
+#manage_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
