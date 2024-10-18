@@ -46,6 +46,8 @@ display: grid;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: small;
+    font-weight: lighter ;
 }
 
 .navbar-option:hover{
@@ -58,7 +60,7 @@ display: grid;
     border-radius: 4px;
     background-color: black;
     cursor: pointer;
-    font-size: medium;
+    font-size: small;
 }
 
 
