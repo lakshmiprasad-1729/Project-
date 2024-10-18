@@ -121,6 +121,9 @@ display: grid;
 #content-matter{
     margin-top:0.8rem ;
     width: 50dvw;
+    font-weight: lighter;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @media only screen and (max-width:610px) {
