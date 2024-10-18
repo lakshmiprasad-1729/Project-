@@ -81,3 +81,18 @@ text-align: center;
     flex-wrap: wrap;
     margin-top: 2rem;
 }
+
+.contact{
+    width:100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+#contact-info{
+    display: grid;
+    background-color: gray;
+    padding: 2rem;
+    color: white;
+}

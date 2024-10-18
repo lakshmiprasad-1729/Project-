@@ -48,10 +48,12 @@ display: grid;
     align-items: center;
     font-size: small;
     font-weight: lighter ;
+    margin-left: 0.5rem;
 }
 
 .navbar-option:hover{
     color: white;
+    margin-left: 0.5rem;
     width: 3rem;
     height: 2rem;
     display: flex;
@@ -149,6 +151,7 @@ display: grid;
 
 #register-btn{
     width: 3.5rem;
+    margin-left: 1rem;
 }
 
 #website-name{
